@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/putri"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM       : A11.2016.09927"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama    : Putri Aji Lestari"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hobby   : Masak, nyanyi"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi Singkat : Saya mahasiswa Udinus jurusan TI S1, smt 5, mengambil peminatan SC dan sekarang sedang belajar pemrograman mobile"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALAMAT"
+        android:onClick="showMaps"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TELEPON"
+        android:onClick="calling"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMAIL"
+        android:onClick="email"
+        android:textSize="20sp"/>
+
+</LinearLayout>
